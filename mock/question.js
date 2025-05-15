@@ -46,6 +46,15 @@ module.exports = [
               isLocked: false,
               props: { title: '你的电话', placeholder: '请输入电话...' }
             },
+            // textarea
+            {
+              fe_id: Random.id(),
+              type: 'questionTextarea',
+              title: '多行输入',
+              isHidden: false,
+              isLocked: false,
+              props: { title: '你的爱好', placeholder: '请输入...' }
+            },
             // paragraph
             {
               fe_id: Random.id(),
