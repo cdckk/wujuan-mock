@@ -1,7 +1,9 @@
+const answer = require('./answer')
 const question = require('./question')
 
 const mockList = [
-  ...question
+  ...question,
+  ...answer
 ]
 
 module.exports = mockList
